@@ -1,0 +1,23 @@
+{
+    "name": "adaopedro/ip-geolocation",
+    "description": "A simple API to get geolocation data based on a given IP number",
+    "license": "MIT",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": ["geolocation", "ip", "location", "places"],
+    "autoload": {
+        "psr-4": {
+            "AdaoPedro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adao Pedro",
+            "email": "adaopedro.pro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "7.1.x-dev"
+    }
+}
